@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background: #fceef6; /* rosa pastel claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+.form-box {
+    background: #fff0f6; /* rosa suave */
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(200, 150, 180, 0.3);
+    text-align: left;
+}
+
+/* Títulos */
+h2 {
+    color: #cc6699;
+    margin-bottom: 20px;
+}
+
+/* Labels y inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #b3507a;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5bcd6;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Inputs al enfocar */
+input:focus, select:focus {
+    border-color: #e79ab0;
+    box-shadow: 0 0 6px rgba(231, 154, 176, 0.6);
+}
+
+/* Botón */
+button {
+    background: #f5bcd6;
+    color: #5a2d3f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e79ab0;
+    color: white;
+}
